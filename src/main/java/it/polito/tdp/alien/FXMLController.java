@@ -44,10 +44,14 @@ public class FXMLController {
     @FXML
     void handleTranslate(ActionEvent event) {
     	
-    	txtDizionario.clear();
-    	
     	//ora funziona solo per inserimento ma non per ricerca
     	//bisogna dividere la condizione di errore in null dà errore e non contiene spazio fa ricerca
+    	
+    	//per il punto 2 devo inserire le parole in una mappa in cui la chiave è la parola aliena 
+    	//e il valore è una lista di parole umane
+    	
+    	//E' UNA CACATA, MA NON SERVE MANCO IL PATTERN MVC NE' IL DAO QUINDI NON SERVE A NIENTE SE NON
+    	//A RIPRENDERE CONFIDENZA CON LISTE E MAPPE 
     	
     	// fare controllo validità stringa s
     	String s = this.txtInserimento.getText();
